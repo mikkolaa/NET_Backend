@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "ParkingHouse.Controllers.ParkingController",
+    "Method": "EnterParkingHall",
+    "RelativePath": "api/Parking/enter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "car",
+        "Type": "ParkingHouse.Models.Car",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingHouse.Controllers.ParkingController",
+    "Method": "ExitParkingHall",
+    "RelativePath": "api/Parking/exit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "car",
+        "Type": "ParkingHouse.Models.Car",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingHouse.Controllers.ParkingController",
+    "Method": "GetFreeParkingSpots",
+    "RelativePath": "api/Parking/freespots",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingHouse.Controllers.ParkingController",
+    "Method": "ParkCar",
+    "RelativePath": "api/Parking/park",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "spot",
+        "Type": "ParkingHouse.Models.ParkingSpot",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ParkingHouse.Controllers.ParkingController",
+    "Method": "GetParkingSpots",
+    "RelativePath": "api/Parking/spots",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

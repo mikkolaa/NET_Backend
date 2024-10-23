@@ -3,13 +3,14 @@ Parkkihalli toteutus eri operaatioineen.
 Toteutettu ASP.NET MVC Core Web API solutionina NET 8.
 
 ParkingHouse
-- Itse Web API jossa controllerit ja service-luokat sek‰ model-luokat joissa varsinainen toteutus
+- Itse Web API jossa controllerit ja service-luokat sek√§ model-luokat joissa varsinainen toteutus
 
 Test
-- MSBuild testit joilla service-luokan testit sek‰ testit ParkingCost-luokalle joka laskee pys‰kˆintiin
-liittyv‰t kustannukset.
+- MSBuild testit joilla service-luokan testit sek√§ testit ParkingCost-luokalle joka laskee pys√§k√∂intiin
+liittyv√§t kustannukset.
 
-Swagger mukana mutta testit ehk‰ paremmin testaavat oikeellisuuden.
+Swagger mukana mutta testit ehk√§ paremmin testaavat oikeellisuuden.
 
+4 - 5 tunnin toteutus nopeasti. Virheentarkitus TBD my√∂hemmin.
 
 
